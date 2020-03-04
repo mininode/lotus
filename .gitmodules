@@ -1,0 +1,3 @@
+[submodule "src/vendor/ChakraCore"]
+	path = src/vendor/ChakraCore
+	url = https://github.com/microsoft/ChakraCore.git
