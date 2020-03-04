@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0)
 project (nymphaea)
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/c-ares)
-add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/libuv)
-add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/mbedtls)
-add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/zlib)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/c-ares)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/libuv)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/mbedtls)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/zlib)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/vendor/ChakraCore)
 
 set (PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/src/include)
